@@ -1,0 +1,24 @@
+NSFW Detection Model Evaluation Results
+    ==================================================
+
+    Accuracy: 1.0000
+
+    Classification Report:
+                  precision    recall  f1-score   support
+
+        SAFE     1.0000    1.0000    1.0000         6
+        NSFW     1.0000    1.0000    1.0000         4
+
+    accuracy                         1.0000        10
+   macro avg     1.0000    1.0000    1.0000        10
+weighted avg     1.0000    1.0000    1.0000        10
+
+
+    Training Results:
+    ------------------------------
+    eval_loss: 0.6826
+eval_accuracy: 1.0000
+eval_runtime: 0.0088
+eval_samples_per_second: 1132.5240
+eval_steps_per_second: 113.2520
+epoch: 5.0000
