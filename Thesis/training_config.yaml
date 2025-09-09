@@ -3,17 +3,18 @@ export:
   - onnx
   - tflite
   optimize_for_mobile: true
-  quantization: false
+  quantization: true
 model:
   architecture: yolov5s
   class_names:
   - nsfw
   - gore
-  input_size: 640
+  input_size: 320
   num_classes: 2
 training:
   batch_size: 16
   epochs: 100
   learning_rate: 0.01
   momentum: 0.937
+  patience: 15
   weight_decay: 0.0005
